@@ -100,6 +100,7 @@ def get_hand_value(cards):
             hand_total += count_card(card, hand_total)
     return hand_total
 
+st.title('Black Jack | Probability Simulator')
 
 option = st.selectbox(label='Select Cards Manually or Draw Randomly', options=['Random','Manual Select'])
 
