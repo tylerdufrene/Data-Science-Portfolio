@@ -227,7 +227,7 @@ for agents_count in range(2, 11):
 
 agents_df = agents_df.reset_index()
 
-st.dataframe(agents_df)
+# st.dataframe(agents_df)
 
 metric_selection = st.selectbox(label='Select Metric to View', options=['SLA %', 'Probability of Wait', 'Avg Wait Time (mins)'])
 
